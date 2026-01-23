@@ -1,0 +1,21 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ html body{
+    width: 100%;
+    height: 100%;
+   background-image:url("https://wallpapers.com/images/hd/dark-red-aesthetic-qddph3w7o1v56207.jpg");
+   background-position: cover;
+
+}
+.wrapper{
+    font-size: x-large;
+     background-position: center;
+     overflow-y: auto;
+     justify-content: space-between;
+     
+}
+.space{
+    height:500vh;
+}

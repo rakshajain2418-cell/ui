@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    width: 200vw;
+     height: 100%;
+     position: relative;
+     background-color:pink;
+     display: flex;
+     justify-content: center;
+     position: relative;
+}
+.box{
+    height: 100vh;
+    width: 100px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    gap: 20px;
+}
+.colums{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    background-color:white
+}
+.col1{
+     
+}
+.col2{
+
+}
+.col3{
+     width: 100px;
+    height: 50vh;
+    display: flex;
+}
+.col4{
+
+}
+

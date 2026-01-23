@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+html body{
+    background-color:white;
+
+}
+
+.wrapper{
+     width: 200vw;
+     height: 100%;
+     position: relative;
+     background-color:pink;
+     display: flex;
+     justify-content: center;
+     position: relative;
+}
+.grey{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.coloum{
+    height: 60%;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+}
+#col1{
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+#col2{
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+#col3{
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+#col4{
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: yellow;
+    
+}

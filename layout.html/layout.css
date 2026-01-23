@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.wrapper{
+    width: 100%;
+    background-color: pink;
+}
+.instacontainer{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+.left{
+    width: 20%;
+    height: 100%;
+    background-color: beige;
+    position: fixed;
+}
+.instalogo{
+    width: 100%;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.instalogo img{
+    height:150px;
+    object-fit: cover;
+
+}
+.profile{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.profile img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid white;
+    margin-bottom: 10px;
+
+}
+.profile h4{
+    font-size: 20px;
+}
+.profile p{
+    color: black;
+    font-size: 14px;
+}
+.Followcontainer{
+    height: 3vh;
+    width: 100%;
+    display: flex;
+}
+.Followcontent{
+    height: 3vh;
+    width: 100%;
+     display: flex;
+    background-color: cornsilk;
+}
+.Followcontent .fol{
+    font-weight: 400;
+    border: none;
+
+}
+ .fol {
+    height: 100%;
+   width:calc(100%/3) ;
+   border-left: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+  }
+  .content{
+    height: 10vh;
+    width: 100%;
+  }
+.right{
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    right: 0%;
+}
+.topnav{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;              
+}
+
+.topnavleft{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.topnavleft input{
+    height: 40px;
+    width: 300px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: blanchedalmond;
+}
+
+.topnavright{
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: end;
+}
+.topnavleft i{
+    font-size: 40px;
+}
+.topnavright button{
+    padding: 10px 20px;
+    background-color: #e40976;
+    border: none;
+    border-radius: 50px;
+    color: #e40976
+    font-size: 25px;
+I}
+
+.bottomnav{
+    width: 100%;
+    height: 20vh;
+     top:10px;
+    
+}
+.bottomnav p{
+    margin bottom : 4px;
+}
+.bottomnav h3{
+    padding-left: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.stories{
+     height: 19vh;
+     width: 100%;
+     position: fixed;
+     top: 13vh;
+     display: flex;
+     align-items: center;
+     gap: 15px;
+    overflow-x: auto;
+    padding: 0 20px;
+}
+.story{
+    height:60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    border:3px solid red;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.storycontainer{
+    flex-direction: row;
+    display: flex;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
